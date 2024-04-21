@@ -49,8 +49,6 @@ def login():
 
         if username == '' or password == '':
             return jsonify({'success':False,'message':'Credentials cannot be empty'})
-        # Here you can perform authentication logic
-        # For simplicity, let's just check if the username and password are not empty
 
         if user:
             return jsonify({'success': True, 'redirect_url': '/success'})
