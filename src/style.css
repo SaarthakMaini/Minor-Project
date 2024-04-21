@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.jpg'); 
+    background-color: #f1f1f1;
+    background-size:cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.div {
+    padding: 50px; 
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust transparency as needed */
+    backdrop-filter: blur(20px);  
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3); /* Red glow effect */
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #dadce0; /* Google's grey for headings */
+  }
+  
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #dadce0; /* Google's grey for headings */
+  }
+  
+form {
+    font-size:large;
+    color:#dadce0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    color: #dadce0;
+    background-color: transparent;
+    margin: 5px;
+    border: 2px solid #dadce0; /* Google's input border color */
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+button {
+    padding: 12px 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #dadce0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;   
+  }
+  
+button:hover {
+    box-shadow: 0 0 20px 5px whitesmoke;
+  }
+  
+button:active {
+    box-shadow: 0 0 20px 5px grey;
+    background-color: grey;
+  }
+  
+p {
+    color: #ea4335; /* Google's red */
+    margin: 5px;
+  }
+  
